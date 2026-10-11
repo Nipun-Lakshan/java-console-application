@@ -77,36 +77,28 @@ The application was developed using fundamental Java features without external l
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Nipun-Lakshan/java-gdse-student-marks-management-system.git
+https://github.com/Nipun-Lakshan/student-marks-management-system.git
 ```
 
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd java-gdse-student-marks-management-system
+cd student-marks-management-system
 ```
 
 ### 3. Compile the Application
 
-If the main source file is named `Main.java` and is located in the current directory:
+If the main source file is named `coursework01.java` and is located in the current directory:
 
 ```bash
-javac Main.java
+javac coursework01.java
 ```
 
 ### 4. Run the Application
 
 ```bash
-java Main
+java coursework01
 ```
-
-**Note:** If your source file is located inside a package or a different directory, adjust the compilation and execution commands accordingly.
-
-## 📚 Coursework Context
-
-This project was developed for the **CMJD – Programming Fundamentals** coursework. The assignment focuses on implementing a student marks management system using arrays and fundamental programming techniques.
-
-The coursework also emphasizes implementing the required functionalities, writing sorting algorithms independently, validating user inputs, and understanding the code well enough to explain the implementation during the viva-voce examination.
 
 ## 🎯 Learning Outcomes
 
