@@ -1,100 +1,136 @@
-# Java Console Application
+# Student Marks Management System
 
-A Java console-based Student Marks Management System developed as part of my early programming journey during the CMJD (Comprehensive Master Java Developer) course. This project represents my first hands-on experience in software development and core Java programming.
+A Java console-based Student Marks Management System developed as part of the CMJD (Comprehensive Master Java Developer) course under the Programming Fundamentals module. This project was one of my first hands-on software development experiences, helping me strengthen my Core Java programming and problem-solving skills.
 
-## 📌 About
+## 📌 About the Project
 
-This repository contains a console-based Java application developed to manage student marks and basic academic records.
+The GDSE Student Marks Management System is a command-line application designed to manage student records and examination marks for two subjects:
 
-All the code in this project was **written by me through hands-on practice, exercise solving, and problem-solving experience gained from the course and other learning platforms. No code generation tools or AI-generated code were used in developing this project.**
+* Programming Fundamentals
+* Database Management Systems (DBMS)
 
-This project was built during my learning phase, focusing on strengthening core programming fundamentals.
+The project was developed based on the requirements of the CMJD Programming Fundamentals coursework, with a focus on arrays, methods, loops, conditional statements, input validation and basic sorting algorithms.
 
-## 🎓 Learning Background
-
-This project was developed as part of my CMJD coursework while learning:
-
-* Java Fundamentals
-* Arrays and Data Storage
-* Methods and Functions
-* Global Variables
-* Loops and Conditional Logic
-* Console-Based Application Design
-* Problem Solving Through Practice Exercises
+All the code in this project was **written by me through hands-on practice, solving coursework requirements, reading documentation, and learning from online resources. No AI code-generation tools were used to develop the application.**
 
 ## 🚀 Features
 
-* Add student records
-* Store and manage marks
-* Calculate basic results
-* Display student information
-* Console-based menu system
-* Simple and structured data handling using arrays
+The application includes the following functionalities:
+
+1. **Add New Student** – Register students using their student IDs and names.
+2. **Add New Student with Marks** – Register a student and enter marks for both subjects.
+3. **Add Marks** – Assign marks to existing students who do not yet have marks recorded.
+4. **Update Student Details** – Update the name of an existing student.
+5. **Update Marks** – Modify previously recorded examination marks.
+6. **Delete Student** – Remove a student record from the system.
+7. **Print Student Details** – Display student information, marks, total marks, average marks and rank where applicable.
+8. **Print Student Ranks** – Display ranked student records based on their results.
+9. **Best in Programming Fundamentals** – Identify the best-performing student in Programming Fundamentals.
+10. **Best in Database Management Systems** – Identify the best-performing student in DBMS.
+
+### ✅ Validation and Data Management
+
+* Prevent duplicate student IDs.
+* Validate student IDs before performing operations.
+* Restrict subject marks to the range of 0–100.
+* Prevent marks from being assigned more than once through the Add Marks functionality.
+* Handle students whose marks have not yet been entered.
+* Allow student details and marks to be updated.
+* Calculate total and average marks.
+* Rank students according to their results.
+* Display subject-wise top performers.
+
+## 🎓 Learning Objectives
+
+This project helped me practice the following programming concepts:
+
+* Java Fundamentals
+* Variables and Data Types
+* Arrays and Array-Based Data Storage
+* Methods and Code Reusability
+* Loops and Conditional Statements
+* Input Handling Using `Scanner`
+* Input Validation and Error Handling
+* Searching and Sorting Algorithms
+* Basic Result Calculations and Ranking
+* Command-Line Interface (CLI) Application Development
+* Logical Thinking and Problem Solving
 
 ## 💻 Technologies Used
 
-* Java (Core)
-* Console Application (No frameworks or external libraries)
+* **Programming Language:** Java (Core Java)
+* **Application Type:** Console / Command-Line Interface (CLI)
+* **Data Storage:** Arrays
+* **Input Handling:** `Scanner`
+* **Development Tools:** IntelliJ IDEA, VS Code or another Java-compatible IDE
+
+The application was developed using fundamental Java features without external libraries or frameworks in accordance with the coursework guidelines.
 
 ## 🛠️ Requirements
 
-* Java JDK 8 or higher
-* Any Java IDE or Code Editor
+* Java Development Kit (JDK) 8 or higher
+* A Java-compatible IDE or code editor
+* Command-line terminal
 
-Examples:
+## ▶️ How to Run the Project
 
-* IntelliJ IDEA
-* VS Code
-
-## ▶️ Running the Project
-
-Clone the repository:
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Nipun-Lakshan/java-student-marks-management-system.git
+git clone https://github.com/Nipun-Lakshan/java-gdse-student-marks-management-system.git
 ```
 
-Navigate to the project:
+### 2. Navigate to the Project Directory
 
 ```bash
-cd java-student-marks-management-system
+cd java-gdse-student-marks-management-system
 ```
 
-Compile the program:
+### 3. Compile the Application
+
+If the main source file is named `Main.java` and is located in the current directory:
 
 ```bash
 javac Main.java
 ```
 
-Run the program:
+### 4. Run the Application
 
 ```bash
 java Main
 ```
 
+**Note:** If your source file is located inside a package or a different directory, adjust the compilation and execution commands accordingly.
+
+## 📚 Coursework Context
+
+This project was developed for the **CMJD – Programming Fundamentals** coursework. The assignment focuses on implementing a student marks management system using arrays and fundamental programming techniques.
+
+The coursework also emphasizes implementing the required functionalities, writing sorting algorithms independently, validating user inputs, and understanding the code well enough to explain the implementation during the viva-voce examination.
+
 ## 🎯 Learning Outcomes
 
-This project helped me to:
+Through this project, I gained practical experience in:
 
-* Build strong programming fundamentals in Java
-* Improve logical thinking and problem-solving skills
-* Understand how to structure console applications
-* Practice real-world coding scenarios using arrays and methods
-* Gain confidence in writing programs independently
-
-## 📚 Project Note
-
-This is one of my earliest programming projects. It reflects my learning process, practice-based development, and continuous improvement in coding skills.
+* Applying Core Java concepts to a complete console application.
+* Translating functional requirements into working program logic.
+* Managing multiple student records using arrays.
+* Developing reusable methods for different operations.
+* Implementing input validation and handling invalid entries.
+* Calculating results and organizing students according to performance.
+* Writing and understanding searching and sorting logic.
+* Solving programming problems independently and improving my coding confidence.
 
 ## 👨‍💻 Author
 
 **Nipun Lakshan**
 
 * BSc Undergraduate, Faculty of Science, University of Colombo
-* Interested in Software Engineering, Full-Stack Development, and Problem Solving
+* CMJD (Comprehensive Master Java Developer) student
+* Interested in Software Engineering, Full-Stack Development and Problem Solving
 
-GitHub: https://github.com/Nipun-Lakshan
+GitHub: [Nipun-Lakshan](https://github.com/Nipun-Lakshan)
 
 ## ⭐ Support
 
-If you find this project helpful, feel free to give it a star.
+If you find this project helpful or interesting, feel free to give the repository a star!
